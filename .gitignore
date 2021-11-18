@@ -1,5 +1,6 @@
 ebin/
 priv/
+_build/
 c_src/*.o
 .eunit/
 doc

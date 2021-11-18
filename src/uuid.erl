@@ -75,4 +75,4 @@ unparse_lower(_UUID) ->
 %% -------------------------------------------------------------------------
 
 load_nif() ->
-    erlang:load_nif(filename:join(code:priv_dir(libuuid), "uuid"), 0).
+    erlang:load_nif(filename:join(code:priv_dir(libuuid), "libuuid"), 0).
